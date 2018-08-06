@@ -11,7 +11,8 @@ import {
   Notifications,
   Form,
   TextBox,
-  TextBoxContainer
+  TextBoxContainer,
+  Control,
 } from './styles';
 
 const Home = () => (
@@ -21,7 +22,7 @@ const Home = () => (
       <Information>
         <strong>DASHBOARD</strong>
         <small>GERENCIAR TOCKET DE SUPORTE</small>
-        <Form onSubmit={() => {}}>
+        <Form onSubmit={() => {}} >
           <input type="text" name="email" placeholder="email@example.com"/>
           <input type="text" name="phone" placeholder="(11) 11111-1111" />
           <button type="button">Buscar usuário</button>
@@ -40,6 +41,18 @@ const Home = () => (
             <small>(11) 91111-1111</small>
           </TextBox>
         </TextBoxContainer>
+
+        <Control>
+          <strong>Controle</strong>
+
+          <form onSubmit={() => {}}>
+            <input type="text" name="cep" placeholder="ex: 00000-000"/>
+            <div>
+            <button type="button" onClick={() => {}} id="open">ABRIR</button>
+            <button type="button" onClick={() => {}} id="close">FECHAR</button>
+            </div>
+          </form>
+        </Control>
       </Information>
       <PlatformInfo />
       <Notifications />

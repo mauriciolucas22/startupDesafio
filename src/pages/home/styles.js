@@ -88,6 +88,47 @@ export const TextBox = styled.div`
   }
 `;
 
+export const Control = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin: 5px 5px 5px 0;
+      padding: 10px;
+      width: 200px;
+      height: 45px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+    }
+
+    button {
+      border: 0;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 10px 10px 10px 0;
+      width: 90px;
+      height: 35px;
+      color: #fff;
+    }
+
+    #open {
+      background: #329932;
+    }
+
+    #close {
+      background: #ff4c4c;
+    }
+  }
+`;
+
 export const PlatformInfo = styled.div``;
 
 export const Notifications = styled.div``;
