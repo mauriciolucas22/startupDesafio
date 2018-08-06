@@ -54,8 +54,16 @@ const Home = () => (
           </form>
         </Control>
       </Information>
-      <PlatformInfo />
-      <Notifications />
+
+      <PlatformInfo>
+        <strong>UTILIZAÇÃO DA PLATAFORMA</strong>
+
+        <i className="fa fa-clipboard-check" />
+      </PlatformInfo>
+
+      <Notifications>
+        <strong>NOTIFICAÇÕES</strong>
+      </Notifications>
     </Content>
   </Container>
 );

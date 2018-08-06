@@ -129,6 +129,31 @@ export const Control = styled.div`
   }
 `;
 
-export const PlatformInfo = styled.div``;
+export const PlatformInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #404040;
+  height: 150px;
+  border-radius: 5px;
 
-export const Notifications = styled.div``;
+  i {
+    margin-top: 20px;
+    font-size: 200px;
+    color: #fff;
+  }
+`;
+
+export const Notifications = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  background: #f7fcab;
+  margin-right: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+`;
