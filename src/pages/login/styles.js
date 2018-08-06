@@ -38,6 +38,17 @@ export const Content = styled.div`
     font-family: Impact;
   }
 
+  a {
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+
+    &:visited {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
 `;
 
 export const Form = styled.form`
@@ -47,24 +58,22 @@ export const Form = styled.form`
   flex-direction: column;
 
   input {
-    width: 100%;
+    width: 300px;
     flex: 1;
     height: 55px;
-    padding: 0 20px;
+    padding: 20px;
     background: #fff;
     font-size: 12px;
     border: 0;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0;
   }
 
-  a {
-    font-size: 15px;
-    text-decoration: none;
-    color: #fff;
-
-    &:visited {
-      text-decoration: none;
-      color: #fff;
-    }
+  button {
+    margin-top: 10px;
+    border: 0;
+    width: 90px;
+    height: 50px;
+    background: #fff;
+    border-radius: 3px
   }
 `;

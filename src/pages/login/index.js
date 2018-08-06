@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container, Content, Form } from './styles';
 
@@ -21,6 +22,12 @@ const Login = () => (
           placeholder="senha"
           onChange={() => {}}
         />
+
+        <Link to="/dashboard">
+          <button type="submit" onClick={() => { console.log('Jesus loves you!') }}>
+            Acessar
+          </button>
+        </Link>
       </Form>
       <a href="#">ESQUECEU A SENHA?</a>
     </Content>

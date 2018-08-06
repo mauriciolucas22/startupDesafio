@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import './styles/global';
 
-import Login from './pages/login';
-import Home from './pages/home';
+import Routes from './routes';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Login />
-      </div>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     );
   }
 }
