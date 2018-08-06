@@ -21,7 +21,7 @@ const Home = () => (
     <Content>
       <Information>
         <strong>DASHBOARD</strong>
-        <small>GERENCIAR TOCKET DE SUPORTE</small>
+        <small>GERENCIAR TICKET DE SUPORTE</small>
         <Form onSubmit={() => {}} >
           <input type="text" name="email" placeholder="email@example.com"/>
           <input type="text" name="phone" placeholder="(11) 11111-1111" />

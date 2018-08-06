@@ -8,9 +8,19 @@ export const Container = styled.div`
 
   display: flex;
   flex-direction: row;
-  padding: 30px;;
-  height: 75px;
+  justify-content: space-between;
+  padding: 30px;
   background: ${colors.primary};
+
+  i {
+    font-size: 40px;
+  }
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
 
   img {
     height: 50px;
@@ -22,7 +32,12 @@ export const Container = styled.div`
     border: 0;
     color: #fff;
     margin: 20px 20px 20px 0;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
     margin-left: 30px;
+
+    &:hover {
+      color: #e5f2e5;
+    }
   }
 `;
