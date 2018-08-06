@@ -40,14 +40,21 @@ const Home = () => (
             <strong>Telefone</strong>
             <small>(11) 91111-1111</small>
           </TextBox>
+          <div>
+            <button type="button" onCLick={() => {}} id="new">Inicar Ticket</button>
+            <button type="button" onCLick={() => {}} id="edit">Modificar Ticket</button>
+          </div>
         </TextBoxContainer>
 
         <Control>
-          <strong>Controle</strong>
+          <strong>Controlar os compartimentos</strong>
 
           <form onSubmit={() => {}}>
-            <input type="text" name="cep" placeholder="ex: 00000-000"/>
-            <div>
+            <div id="input">
+              <input type="text" name="cep" placeholder="ex: 00000-000"/>
+              <small>Endereço x</small>
+            </div>
+            <div id="buttons">
             <button type="button" onClick={() => {}} id="open">ABRIR</button>
             <button type="button" onClick={() => {}} id="close">FECHAR</button>
             </div>

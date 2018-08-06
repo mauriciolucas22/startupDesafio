@@ -25,9 +25,9 @@ export const Content = styled.div`
   strong {
     margin: 10px 10px 10px 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
-    font-family: Impact;
+    font-family: 'Khand Semibold';
   }
 
   small {
@@ -35,7 +35,7 @@ export const Content = styled.div`
     color: #fff;
     font-size: 12px;
     font-weight: bold;
-    font-family: Impact;
+    font-family: 'Khand Semibold';
   }
 
   a {
@@ -47,6 +47,7 @@ export const Content = styled.div`
     &:visited {
       text-decoration: none;
       color: #fff;
+      font-family: 'Khand Semibold';
     }
   }
 `;

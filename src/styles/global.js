@@ -24,7 +24,7 @@ injectGlobal`
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     background: ${colors.primary};
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Khand Medium', sans-serif;
     color: #fff;
   }
 

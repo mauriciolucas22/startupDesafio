@@ -22,14 +22,15 @@ export const Information = styled.div`
   flex-direction: column;
 
   strong {
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 25px;
+    font-family: 'Khand Medium';
+    color: #666666;
   }
 
   small {
     font-size: 15px;
     margin-top: 20px;
-    font-family: sans-serif;
+    font-family: 'Khand Medium';
   }
 `;
 
@@ -61,7 +62,33 @@ export const Form = styled.form`
 export const TextBoxContainer = styled.div`
   display: flex;
   flex-direction: row;
-  width: 500px;
+  width: 550px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+
+    button {
+      border: 0;
+      padding: 10px;
+      border-radius: 5px;
+      height: 40px;
+      width: 120px;
+      color: #fff;
+    }
+
+    #new {
+      background: #325b84;
+    }
+
+    #edit {
+      background: #e59400;
+    }
+  }
 `;
 
 export const TextBox = styled.div`
@@ -69,11 +96,13 @@ export const TextBox = styled.div`
   flex-direction: column;
   padding: 5px;
   height: 90px;
-  width: 200px;
+  width: 210px;
   margin: 10px 10px 10px 10px;
   border: 1px solid #878686;
   border-radius: 4px;
   background: #fff;
+  min-width: 190px;
+  max-width: 200px;
 
   strong {
     font-size: 15px;
@@ -107,6 +136,16 @@ export const Control = styled.div`
     div {
       display: flex;
       flex-direction: row;
+    }
+
+    #input {
+      display: flex;
+      flex-direction: row;
+
+      small {
+        margin: 20px 20px 20px 20px;
+        font-family: 'Khand Medium';
+      }
     }
 
     button {

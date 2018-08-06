@@ -12,8 +12,13 @@ export const Container = styled.div`
   padding: 30px;
   background: ${colors.primary};
 
-  i {
-    font-size: 40px;
+  button {
+    border: 0;
+    background: transparent;
+
+    i {
+      font-size: 40px;
+    }
   }
 `;
 

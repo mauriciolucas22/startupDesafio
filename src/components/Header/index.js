@@ -12,7 +12,9 @@ const Header = () => (
       <button onClick={() => {}}>relatorios</button>
       <button onClick={() => {}}>status da plataforma</button>
     </Content>
-    <i className="fa fa-cogs"></i>
+    <button type="button" onClick={() => {}}>
+      <i className="fa fa-cogs"></i>
+    </button>
   </Container>
 );
 
